@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8137D4A2D7A5BA20089D9B1 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = B8137D492D7A5BA20089D9B1 /* SDWebImageSwiftUI */; };
+		B8137D4D2D7A5BC50089D9B1 /* SwiftfulLoadingIndicators in Frameworks */ = {isa = PBXBuildFile; productRef = B8137D4C2D7A5BC50089D9B1 /* SwiftfulLoadingIndicators */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B8D22B952D777BF800A3FF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D22B7C2D777BEB00A3FF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D22B832D777BEB00A3FF85;
+			remoteInfo = BiteBook;
+		};
+		B8D22B9F2D777BF800A3FF85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8D22B7C2D777BEB00A3FF85 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8D22B832D777BEB00A3FF85;
+			remoteInfo = BiteBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B8D22B842D777BEB00A3FF85 /* BiteBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BiteBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D22B942D777BF800A3FF85 /* BiteBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiteBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8D22B9E2D777BF800A3FF85 /* BiteBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BiteBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B8D22B862D777BEB00A3FF85 /* BiteBook */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiteBook;
+			sourceTree = "<group>";
+		};
+		B8D22B972D777BF800A3FF85 /* BiteBookTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiteBookTests;
+			sourceTree = "<group>";
+		};
+		B8D22BA12D777BF800A3FF85 /* BiteBookUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BiteBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8D22B812D777BEB00A3FF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8137D4A2D7A5BA20089D9B1 /* SDWebImageSwiftUI in Frameworks */,
+				B8137D4D2D7A5BC50089D9B1 /* SwiftfulLoadingIndicators in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D22B912D777BF800A3FF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D22B9B2D777BF800A3FF85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8D22B7B2D777BEB00A3FF85 = {
+			isa = PBXGroup;
+			children = (
+				B8D22B862D777BEB00A3FF85 /* BiteBook */,
+				B8D22B972D777BF800A3FF85 /* BiteBookTests */,
+				B8D22BA12D777BF800A3FF85 /* BiteBookUITests */,
+				B8D22B852D777BEB00A3FF85 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8D22B852D777BEB00A3FF85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8D22B842D777BEB00A3FF85 /* BiteBook.app */,
+				B8D22B942D777BF800A3FF85 /* BiteBookTests.xctest */,
+				B8D22B9E2D777BF800A3FF85 /* BiteBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8D22B832D777BEB00A3FF85 /* BiteBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D22BA82D777BF800A3FF85 /* Build configuration list for PBXNativeTarget "BiteBook" */;
+			buildPhases = (
+				B8D22B802D777BEB00A3FF85 /* Sources */,
+				B8D22B812D777BEB00A3FF85 /* Frameworks */,
+				B8D22B822D777BEB00A3FF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B8D22B862D777BEB00A3FF85 /* BiteBook */,
+			);
+			name = BiteBook;
+			packageProductDependencies = (
+				B8137D492D7A5BA20089D9B1 /* SDWebImageSwiftUI */,
+				B8137D4C2D7A5BC50089D9B1 /* SwiftfulLoadingIndicators */,
+			);
+			productName = BiteBook;
+			productReference = B8D22B842D777BEB00A3FF85 /* BiteBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8D22B932D777BF800A3FF85 /* BiteBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D22BAB2D777BF800A3FF85 /* Build configuration list for PBXNativeTarget "BiteBookTests" */;
+			buildPhases = (
+				B8D22B902D777BF800A3FF85 /* Sources */,
+				B8D22B912D777BF800A3FF85 /* Frameworks */,
+				B8D22B922D777BF800A3FF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8D22B962D777BF800A3FF85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B8D22B972D777BF800A3FF85 /* BiteBookTests */,
+			);
+			name = BiteBookTests;
+			packageProductDependencies = (
+			);
+			productName = BiteBookTests;
+			productReference = B8D22B942D777BF800A3FF85 /* BiteBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B8D22B9D2D777BF800A3FF85 /* BiteBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D22BAE2D777BF800A3FF85 /* Build configuration list for PBXNativeTarget "BiteBookUITests" */;
+			buildPhases = (
+				B8D22B9A2D777BF800A3FF85 /* Sources */,
+				B8D22B9B2D777BF800A3FF85 /* Frameworks */,
+				B8D22B9C2D777BF800A3FF85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8D22BA02D777BF800A3FF85 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				B8D22BA12D777BF800A3FF85 /* BiteBookUITests */,
+			);
+			name = BiteBookUITests;
+			packageProductDependencies = (
+			);
+			productName = BiteBookUITests;
+			productReference = B8D22B9E2D777BF800A3FF85 /* BiteBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8D22B7C2D777BEB00A3FF85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					B8D22B832D777BEB00A3FF85 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					B8D22B932D777BF800A3FF85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B8D22B832D777BEB00A3FF85;
+					};
+					B8D22B9D2D777BF800A3FF85 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = B8D22B832D777BEB00A3FF85;
+					};
+				};
+			};
+			buildConfigurationList = B8D22B7F2D777BEB00A3FF85 /* Build configuration list for PBXProject "BiteBook" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8D22B7B2D777BEB00A3FF85;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				B8137D482D7A5BA20089D9B1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				B8137D4B2D7A5BC50089D9B1 /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = B8D22B852D777BEB00A3FF85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8D22B832D777BEB00A3FF85 /* BiteBook */,
+				B8D22B932D777BF800A3FF85 /* BiteBookTests */,
+				B8D22B9D2D777BF800A3FF85 /* BiteBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8D22B822D777BEB00A3FF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D22B922D777BF800A3FF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D22B9C2D777BF800A3FF85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8D22B802D777BEB00A3FF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D22B902D777BF800A3FF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D22B9A2D777BF800A3FF85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B8D22B962D777BF800A3FF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D22B832D777BEB00A3FF85 /* BiteBook */;
+			targetProxy = B8D22B952D777BF800A3FF85 /* PBXContainerItemProxy */;
+		};
+		B8D22BA02D777BF800A3FF85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8D22B832D777BEB00A3FF85 /* BiteBook */;
+			targetProxy = B8D22B9F2D777BF800A3FF85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B8D22BA62D777BF800A3FF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8D22BA72D777BF800A3FF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8D22BA92D777BF800A3FF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BiteBook/Preview Content\"";
+				DEVELOPMENT_TEAM = SGCS38SR5K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.alseddiq.BiteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8D22BAA2D777BF800A3FF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BiteBook/Preview Content\"";
+				DEVELOPMENT_TEAM = SGCS38SR5K;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.alseddiq.BiteBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8D22BAC2D777BF800A3FF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGCS38SR5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.alseddiq.BiteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiteBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiteBook";
+			};
+			name = Debug;
+		};
+		B8D22BAD2D777BF800A3FF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGCS38SR5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.alseddiq.BiteBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BiteBook.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BiteBook";
+			};
+			name = Release;
+		};
+		B8D22BAF2D777BF800A3FF85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGCS38SR5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.alseddiq.BiteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiteBook;
+			};
+			name = Debug;
+		};
+		B8D22BB02D777BF800A3FF85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SGCS38SR5K;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = abdullah.alseddiq.BiteBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BiteBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8D22B7F2D777BEB00A3FF85 /* Build configuration list for PBXProject "BiteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D22BA62D777BF800A3FF85 /* Debug */,
+				B8D22BA72D777BF800A3FF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D22BA82D777BF800A3FF85 /* Build configuration list for PBXNativeTarget "BiteBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D22BA92D777BF800A3FF85 /* Debug */,
+				B8D22BAA2D777BF800A3FF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D22BAB2D777BF800A3FF85 /* Build configuration list for PBXNativeTarget "BiteBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D22BAC2D777BF800A3FF85 /* Debug */,
+				B8D22BAD2D777BF800A3FF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D22BAE2D777BF800A3FF85 /* Build configuration list for PBXNativeTarget "BiteBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8D22BAF2D777BF800A3FF85 /* Debug */,
+				B8D22BB02D777BF800A3FF85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B8137D482D7A5BA20089D9B1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.3;
+			};
+		};
+		B8137D4B2D7A5BC50089D9B1 /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftfulThinking/SwiftfulLoadingIndicators";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B8137D492D7A5BA20089D9B1 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8137D482D7A5BA20089D9B1 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		B8137D4C2D7A5BC50089D9B1 /* SwiftfulLoadingIndicators */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8137D4B2D7A5BC50089D9B1 /* XCRemoteSwiftPackageReference "SwiftfulLoadingIndicators" */;
+			productName = SwiftfulLoadingIndicators;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B8D22B7C2D777BEB00A3FF85 /* Project object */;
+}
