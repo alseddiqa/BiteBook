@@ -12,70 +12,68 @@ struct HomeView: View {
     @State private var showingFilterSheet = false
 
     var body: some View {
-        NavigationView {
-            VStack(alignment: .leading, spacing: 16) {
-                if !viewModel.recipes.isEmpty {
-                    SearchBar(text: $viewModel.searchText)
-                        .padding(.horizontal)
-                }
-                ZStack {
-                    // Loading state
-                    if viewModel.loadingState {
-                        LoadingView()
+            NavigationView {
+                VStack(alignment: .leading, spacing: 16) {
+                    if !viewModel.recipes.isEmpty {
+                        SearchBar(text: $viewModel.searchText)
+                            .padding(.horizontal)
                     }
-                    // Error state
-                    else if viewModel.error != nil {
-                        ErrorView(
-                            error: viewModel.error,
-                            retryAction: viewModel.getRecipes
+                    
+                    if !viewModel.recipes.isEmpty {
+                        CategoryScrollView(
+                            categories: viewModel.uniqueCategories,
+                            selectedCategory: viewModel.selectedCategory,
+                            onSelect: viewModel.selectCategory
                         )
                     }
-                    // Content state
-                    else {
-                        VStack(alignment: .leading, spacing: 16) {
-                            // Categories only shown when we have recipes
-                            if !viewModel.recipes.isEmpty {
-                                CategoryScrollView(
-                                    categories: viewModel.uniqueCategories,
-                                    selectedCategory: viewModel.selectedCategory,
-                                    onSelect: viewModel.selectCategory
-                                )
-                            }
-                            
-                            // Main content area (recipes list or empty state)
+                    
+                    ZStack {
+                        // Loading state
+                        if viewModel.loadingState {
+                            LoadingView()
+                        }
+                        // Error state
+                        else if viewModel.error != nil {
+                            ErrorView(
+                                error: viewModel.error,
+                                retryAction: viewModel.getRecipes
+                            )
+                        }
+                        // Content state
+                        else {
+                            // Only make the recipe list refreshable
                             if viewModel.filteredRecipes.isEmpty {
                                 EmptyStateView(message: "No recipes found 🥺")
                                     .frame(maxWidth: .infinity, maxHeight: .infinity)
                             } else {
                                 RecipeListView(recipes: viewModel.filteredRecipes)
+                                    .refreshable {
+                                        viewModel.getRecipes()
+                                    }
                             }
                         }
                     }
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
                 }
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-            }
-            .onAppear {
-                viewModel.getRecipes()
-            }
-            .refreshable {
-                viewModel.getRecipes()
-            }
-            .navigationTitle("Recipes")
-            .toolbar {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        showingFilterSheet = true
-                    }) {
-                        Image(systemName: "line.horizontal.3.decrease.circle")
+                .onAppear {
+                    viewModel.getRecipes()
+                }
+                .navigationTitle("Recipes")
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {
+                            showingFilterSheet = true
+                        }) {
+                            Image(systemName: "line.horizontal.3.decrease.circle")
+                        }
                     }
                 }
-            }
-            .sheet(isPresented: $showingFilterSheet) {
-                FilterSheet(viewModel: viewModel)
-                    .presentationDetents([.fraction(0.3)])
+                .sheet(isPresented: $showingFilterSheet) {
+                    FilterSheet(viewModel: viewModel)
+                        .presentationDetents([.fraction(0.3)])
+                }
             }
         }
-    }
 
     
     struct CategoryButton: View {
